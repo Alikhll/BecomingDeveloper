@@ -1,8 +1,10 @@
-﻿User user = new User();
-user.Name = "abc";
-user.Age = 12;
+﻿User u = new User();
+u.Name = "abc";
+u.Age = 12;
 
-user.Print();
+u.Print();
+
+User.StaticPrint();
 
 public class User
 {
@@ -13,6 +15,11 @@ public class User
     {
         Console.WriteLine("Name: " + Name);
         Console.WriteLine("Age: " + Age);
+    }
+
+    public static void StaticPrint()
+    {
+        Console.WriteLine("I am static method!");
     }
 }
 
