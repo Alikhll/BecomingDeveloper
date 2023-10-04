@@ -1,11 +1,7 @@
-﻿// 'name' is a varibale and 'MyName' is the value
-string name = "MyName";
-// int stores integers
-int age = 12; 
-// double could have decimal
-double score = 80.5;
-// or could be false
-bool isValid = true; 
+﻿string name = "MyName"; // 'name' is a varibale and 'MyName' is the value
+int age = 12; // int stores integers
+double score = 80.5; // double could have decimal
+bool isValid = true; // or could be false
 
 //To print in the console
 Console.WriteLine("Name: " + name);
