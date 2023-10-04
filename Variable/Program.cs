@@ -75,4 +75,4 @@ string string1 = "120"; // we have a string here, but we know it has integer as 
 int int_result1 = int.Parse(string1); // we can parse string to int becomes 120
 
 string string2 = "a123"; //we don't have a pure string here
-//int int_result2 = int.Parse(string2); // it will throw an exception because cannot parse
+//int int_result2 = int.Parse(string2); // it will throw an exception because cannot parse (exception occures when something goes wrong! we'll practice it later!)
