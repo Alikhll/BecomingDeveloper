@@ -1,16 +1,24 @@
-﻿User u = new User();
-u.Name = "abc";
-u.Age = 12;
+﻿// create an instance of "User"
+// var u = new User();  (you could replace it with "var")
+User u = new User();
 
-u.Print();
+// we can call methods and properties through an instance we created eralier
+// you are not allowed to call "Print" method like this "User.Print()", always required to have an instance
+u.Name = "abc"; // update the property value (because its public)
+u.Age = 12; // update the property value (because its public)
+u.Print(); // call non static method of the class (because its public)
 
+//this is static method and you don't need an instance therefore you can directly call it from its class
 User.StaticPrint();
 
 public class User
 {
+    // a public property that can be accessible
     public string Name { get; set; }
     public int Age { get; set; }
 
+    // a public method that can be accessible
+    // only non static methods have access to class properties and so on!
     public void Print()
     {
         Console.WriteLine("Name: " + Name);
@@ -19,6 +27,8 @@ public class User
 
     public static void StaticPrint()
     {
+        //here is static method and executaion is different 
+        //you don't have access to method "Print", properties like "Name", and "Age" here
         Console.WriteLine("I am static method!");
     }
 }
