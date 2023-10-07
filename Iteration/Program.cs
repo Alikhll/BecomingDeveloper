@@ -7,7 +7,7 @@ numbers.Add(-5);
 numbers.Add(6);
 
 // print the count of list
-Console.WriteLine(numbers.Count);
+Console.WriteLine("Count: " + numbers.Count);
 
 //iterate through the list and print all of them
 foreach (var number in numbers)
