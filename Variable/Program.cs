@@ -32,4 +32,10 @@ Console.WriteLine("------");
 //AdvancedSample.Advanced1();
 
 
+
+//first you have to go to the corresponding troubled file and uncomment it there 
+
 //TroubleShootingSample.Trouble1();
+//TroubleShootingSample.Trouble2();
+//TroubleShootingSample.Trouble3();
+//TroubleShootingSample.Trouble4();
