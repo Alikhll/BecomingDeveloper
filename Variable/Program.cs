@@ -7,10 +7,10 @@ double score = 80.5; // double could have decimal
 bool isValid = true; // or could be false
 
 //To print in the console
-Console.WriteLine("Name: " + name);
-Console.WriteLine("Age: " + age);
-Console.WriteLine("Score: " + score);
-Console.WriteLine("IsValid: " + isValid);
+Console.WriteLine("Name: " + name); // Print "Name: MyName"
+Console.WriteLine("Age: " + age); // Print "Age: 12"
+Console.WriteLine("Score: " + score); // Print "Score: 80.5"
+Console.WriteLine("IsValid: " + isValid); // Print "IsValid: true"
 
 Console.WriteLine("------");
 
