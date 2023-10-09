@@ -22,3 +22,4 @@ Print();
 //BasicSample.Sample2();
 
 //AdvancedSample.Advanced1();
+//AdvancedSample.Advanced2();

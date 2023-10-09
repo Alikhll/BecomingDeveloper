@@ -14,4 +14,31 @@ public class AdvancedSample
     {
         return fName + " - " + lName;
     }
+
+    // ------------------------------------
+    // ------------------------------------
+    // ------------------------------------
+
+    public static void Advanced2()
+    {
+        // var can be used and the type will be inferred by the compiler!
+        var fname = "abc";
+        var lname = "def";
+
+        var length = GetFullNameLength(fname, lname);
+
+        Console.WriteLine(length);
+    }
+
+    private static int GetFullNameLength(string fName, string lName)
+    {
+        // var can be used and the type will be inferred by the compiler!
+        // instead of 'string fullname = ...' 
+        var fullname = fName + " " + lName;
+
+        // same var but compile knows that the tpye would be 'int' 
+        var fullNameLength = fullname.Length;
+
+        return fullNameLength;
+    }
 }
