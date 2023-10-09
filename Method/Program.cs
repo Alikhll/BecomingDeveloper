@@ -13,11 +13,12 @@ Print();
 
 
 // ------------------------------------
-// ------------ More samples --------------
+// ----------- More samples -----------
 // ------------------------------------
 
 
 
-BasicSample.Sample1();
-BasicSample.Sample2();
-BasicSample.Sample3();
+//BasicSample.Sample1();
+//BasicSample.Sample2();
+
+//AdvancedSample.Advanced1();
