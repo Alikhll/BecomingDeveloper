@@ -32,6 +32,6 @@ static void Print(string name, int age)
 
 
 
-BasicSample.Sample1(12);
-BasicSample.Sample2("test");
-BasicSample.Sample3(22, "test123");
+// BasicSample.Sample1(12);
+// BasicSample.Sample2("test");
+// BasicSample.Sample3(22, "test123");
