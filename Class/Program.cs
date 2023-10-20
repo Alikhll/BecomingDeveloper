@@ -13,9 +13,10 @@ u.Print(); // call non static method of the class (because its public)
 //this is static method and you don't need an instance therefore you can directly call it from its class
 User.StaticPrint();
 
+//usually we put classes in a separate file, but here is fine :)
 public class User
 {
-    // a public property that can be accessible
+    // a public field that can be accessible
     public string Name;
     public int Age;
 
