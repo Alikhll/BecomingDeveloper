@@ -5,8 +5,8 @@ public class User
 {
     // we made these properties private, and they are not accesible outside of the class anymore
     // we only have access to them inside the class
-    private string Name { get; set; }
-    private int Age { get; set; }
+    private string Name;
+    private int Age;
 
     // we define a constructor and allow the consumer to provide some data
     // and then we put it into our private properties
