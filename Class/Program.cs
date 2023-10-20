@@ -1,4 +1,6 @@
-﻿// create an instance of "User"
+﻿using Classes;
+
+// create an instance of "User"
 // var u = new User();  (you could replace it with "var")
 User u = new User();
 
@@ -14,8 +16,8 @@ User.StaticPrint();
 public class User
 {
     // a public property that can be accessible
-    public string Name { get; set; }
-    public int Age { get; set; }
+    public string Name;
+    public int Age;
 
     // a public method that can be accessible
     // only non static methods have access to class properties and so on!
@@ -36,31 +38,5 @@ public class User
 
 // --------- Sample ----------
 
-static void Sample()
-{
-    Lesson l1 = new Lesson();
-    l1.Show();
 
-    Lesson l2 = new Lesson("NewLesson");
-    l2.Show();
-}
-
-public class Lesson
-{
-    public string Title { get; set; }
-
-    public Lesson()
-    {
-        Title = "Default"
-    }
-
-    public Lesson(string title)
-    {
-        Title = title;
-    }
-
-    public void Show()
-    {
-        Console.WriteLine(Title);
-    }
-}
+//BasicSample.Sample1();
