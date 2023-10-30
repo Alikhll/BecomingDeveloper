@@ -1,0 +1,7 @@
+{
+    "name": "yourName",
+    "family": "yourFamily",
+    "age": 20,
+    "isAdmin": true,
+    "scores": [1, 5, 10, 10]
+}
