@@ -1,0 +1,17 @@
+{
+    "fullname": "yourName",
+    "courses": [
+        {
+            "name": "C#",
+            "price": 100
+        },
+        {
+            "name": "Javascript",
+            "price": 10
+        }
+    ],
+    "address": {
+        "street": "mystreet",
+        "postalCode": 12345
+    }
+}

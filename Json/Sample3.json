@@ -1,0 +1,9 @@
+{
+    "fullname": "yourName",
+    "address": {
+        "street": "mystreet",
+        "postalCode": 12345
+    }
+}
+
+// address is another inner object

@@ -1,0 +1,15 @@
+{
+    "fullname": "yourName",
+    "courses": [
+        {
+            "name": "C#",
+            "price": 100
+        },
+        {
+            "name": "Javascript",
+            "price": 10
+        }
+    ]
+}
+
+// courses is an array of objects here!
