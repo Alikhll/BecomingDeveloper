@@ -2,9 +2,9 @@ namespace Models;
 
 public class User
 {
-    public int Id;
-    public string Name;
-    public int Age;
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public int Age { get; set; }
 }
 
 public class Store
